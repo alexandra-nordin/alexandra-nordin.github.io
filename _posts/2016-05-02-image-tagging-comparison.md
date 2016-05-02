@@ -4,7 +4,18 @@ title: "Image Tagging Comparison"
 date: 2016-05-02
 ---
 
-|Image | ESP (ground truth) | Clarifai | Imagga | Projectoxford |
+## Average (standard deviation) response time in milliseconds
+
+|**Clarifai**|**Imagga**|**Projectoxford**|
+|649 (80)|523 (429)|458 (169)|
+
+## Tagging Results
+
+The table present the tags returned for each image. 
+**Bold** tags match tags in the ground truth data.
+
+
+|**Image** | **ESP (ground truth)** | **Clarifai** | **Imagga** | **Projectoxford** |
 |![img]({{ site.url }}/assets/2155.jpg)|**['sexy', 'girl', 'woman, 'wing', 'babe', 'halo', 'angel', 'costume', 'white', 'black', 'hand']**|**['sexy', 'girl', 'woman']** <br> ['fashion', 'young', 'glamour', 'desktop', 'people', 'beautiful', 'trendy', 'pretty', 'style', 'person', 'model', 'adult', 'isolated', 'one', 'success', 'portrait', 'looking']|**['sexy']** <br> ['harp', 'person', 'adult', 'caucasian', 'people', 'chordophone', 'attractive', 'happy', 'smile', 'model', 'stringed instrument', 'hair', 'lady', 'happiness', 'fashion', 'pretty', 'man', 'portrait', 'casual', 'face', 'studio', 'fun', 'smiling', 'cute', 'human', 'christmas', 'joy', 'cheerful', 'body', 'lifestyle', 'expression', 'musical instrument', 'joyful', 'dark', 'dress', 'one', 'outdoors', 'male', 'home', 'hands', 'sky', 'throne', 'holding', 'silhouette', 'lovely']|**[]** <br> ['clothing', 'underwear']|
 |![img]({{ site.url }}/assets/2276.jpg)|**['gold', 'tower, 'france', 'high', 'paris', 'yellow', 'night', 'light', 'black', 'eiffel', 'dark']**|**['gold', 'tower']** <br> ['architecture', 'travel', 'religion', 'monument', 'statue', 'sky', 'tourism', 'ancient', 'spirituality', 'dusk', 'temple', 'city', 'illuminated', 'sculpture', 'old', 'building', 'Buddha', 'evening']|**['gold', 'tower', 'paris']** <br> ['stupa', 'shrine', 'temple', 'building', 'place of worship', 'religion', 'architecture', 'structure', 'buddhism', 'thailand', 'culture', 'buddha', 'tourism', 'travel', 'history', 'ancient', 'asia', 'buddhist', 'church', 'asian', 'sky', 'city', 'monument', 'landmark', 'old', 'famous', 'palace', 'religious', 'cathedral', 'thai', 'god', 'dome', 'bangkok', 'golden', 'wat', 'worship', 'statue', 'east', 'historic', 'russia', 'place', 'tourist', 'spirituality', 'spiritual', 'pagoda', 'exterior', 'grand', 'construction', 'pray', 'traditional', 'moscow', 'sculpture', 'russian', 'square', 'prayer', 'st', 'christianity', 'brick', 'cross', 'kremlin', 'art', 'fountain', 'color', 'stone', 'symbol', 'sacred', 'detail', 'capital', 'attraction', 'oriental', 'europe', 'architectural', 'scene', 'town']|**['tower']** <br> ['outdoor']|
 |![img]({{ site.url }}/assets/34164.jpg)|**['man, 'men', 'woman', 'black', 'beard']**|**['man']** <br> ['people', 'portrait', 'adult', 'two', 'athlete', 'facial expression', 'actor', 'recreation', 'indoors', 'person', 'wear', 'one', 'facial hair', 'looking', 'boy', 'room', 'three', 'outdoors', 'champion']|**['man']** <br> ['panpipe', 'pipe', 'wind instrument', 'person', 'portrait', 'people', 'musical instrument', 'face', 'caucasian', 'adult', 'hair', 'smile', 'arab', 'holding', 'smiling', 'pretty', 'ruler', 'brown', 'studio', 'food', 'health', 'home', 'youth', 'male', 'cute', 'color', 'eating', 'hand', 'happy', 'semite', 'muslim', 'business', 'attractive', 'stack', 'child', 'fashion', 'human', 'lifestyle', 'model', 'eyes']|**[]** <br> ['indoor', 'posing']|
